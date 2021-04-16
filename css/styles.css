@@ -1,0 +1,200 @@
+:root {
+  --font-family: 'Raleway', sans-serif;
+
+  --main-color: #2196f3;
+  --main-font-color: #212121;
+  --font-on-dark-theme-color: #ffffff;
+  --font-in-description-color: #757575;
+  --background-color-dark: #2f303a;
+  --background-color-light: #ffffff;
+  --background-color-selection: #c8e1ff;
+  --font-contact-footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-font-color);
+}
+/*===== COMPONENTS=====*/
+.navigation-logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo-first-word {
+  color: var(--main-color);
+}
+.logo-second-word-light-theme {
+  color: var(--main-font-color);
+}
+.logo-second-word-dark-theme {
+  color: var(--font-on-dark-theme-color);
+}
+
+.navigation-list-item-link,
+.contact-list-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus,
+.navigation-list-item-link:active,
+.contact-list-item-link:hover,
+.contact-list-item-link:focus,
+.contact-list-item-link:active,
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active,
+.address-list-item-link-street:hover,
+.address-list-item-link-street:focus,
+.address-list-item-link-street:active,
+.address-list-item-link-e-mail:hover,
+.address-list-item-link-e-mail:focus,
+.address-list-item-link-e-mail:active,
+.address-list-item-link-phone-number:hover,
+.address-list-item-link-phone-number:focus,
+.address-list-item-link-phone-number:active {
+  color: var(--main-color);
+}
+.contact-list-item-link {
+  color: var(--font-in-description-color);
+}
+.hero,
+.footer {
+  background-color: var(--background-color-dark);
+}
+.header,
+.advantages,
+.about-us,
+.team,
+.filters,
+.projects {
+  background-color: var(--background-color-light);
+}
+.secondary-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+::selection {
+  background-color: var(--background-color-selection);
+}
+/*===== END COMPONENTS=====*/
+/*===== HEADER =====*/
+
+/*===== END HEADER =====*/
+
+/*===== HERO =====*/
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--font-on-dark-theme-color);
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--font-on-dark-theme-color);
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+/*===== END HERO =====*/
+/*===== LOREM IPSUM =====*/
+.advantages-list-item-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-font-color);
+}
+.advantages-list-item-description {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--font-in-description-color);
+}
+
+/*===== END LOREM IPSUM =====*/
+/*===== ABOUT US =====*/
+
+/*===== END ABOUT US =====*/
+/*===== OUR TEAM =====*/
+.team-list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.team-list-item-job {
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--font-in-description-color);
+}
+/*===== END OUR TEAM =====*/
+
+/*===== FOOTER =====*/
+.address {
+  font-style: normal;
+}
+.address-list-item-link-street {
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--font-on-dark-theme-color);
+  text-decoration: none;
+}
+.address-list-item-link-e-mail,
+.address-list-item-link-phone-number {
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--font-contact-footer-color);
+  text-decoration: none;
+}
+
+/*===== PORTFOLIO =====*/
+.buttons-list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.buttons-list-item-name:hover,
+.buttons-list-item-name:focus,
+.buttons-list-item-name:active {
+  color: var(--font-on-dark-theme-color);
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+.projects-list-item-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-font-color);
+}
+.projects-list-item-description {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--font-in-description-color);
+}
+
+/*===== END PORTFOLIO =====*/
