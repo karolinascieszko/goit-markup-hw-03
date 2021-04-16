@@ -15,6 +15,54 @@ body {
   color: var(--main-font-color);
 }
 /*===== COMPONENTS=====*/
+/*FLEX + LOGO PADDING DOPISANY*/
+.container {
+  width: 1200px;
+  margin: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+.navigation-list {
+  display: flex;
+  list-style: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
+}
+.navigation-list-item {
+  padding-right: 46px;
+}
+.contact-list {
+  display: flex;
+  list-style: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
+}
+.contact-list-item {
+  padding-right: 46px;
+}
+.hero {
+  margin: 0;
+  padding: 200px 452px 280px 452px;
+}
+.main-header {
+  margin: 0;
+}
+/*END FLEX*/
+
 .navigation-logo {
   font-family: var(--font-family);
   font-weight: 700;
@@ -22,6 +70,11 @@ body {
   line-height: 1.192;
   text-decoration: none;
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 215px;
+  padding-right: 93px;
+  margin: 0;
 }
 .logo-first-word {
   color: var(--main-color);
