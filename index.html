@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -17,14 +17,15 @@
     <title>Studio</title>
   </head>
   <body>
-    <div class="container">
+    
       <header class="header">
+        <div class="container">
         <nav class="navigation">
           <a class="navigation-logo" href="#"
             ><span class="logo-first-word">Web</span
             ><span class="logo-second-word-light-theme">Studio</span></a
           >
-          <ul class="navigation-list">
+          <ul class="navigation-list list ">
             <li class="navigation-list-item">
               <a class="navigation-list-item-link" href="#">Agencja</a>
             </li>
@@ -38,7 +39,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="contact-list">
+        <ul class="contact-list list">
           <li class="contact-list-item">
             <a class="contact-list-item-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -50,12 +51,13 @@
             >
           </li>
         </ul>
+        </div>
       </header>
       <main>
         <!-- HERO-->
 
         <section class="hero">
-          <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <div class="container"> <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button class="modal-btn" type="button">Zamów usługe</button>
         </section>
         <!--LOREM IPSUM-->
@@ -123,7 +125,8 @@
                   height="294"
                 />
               </li>
-            </ul>
+            </ul></div>
+         
           </section>
           <!--our team-->
           <section class="team">
@@ -175,7 +178,6 @@
               </li>
             </ul>
           </section>
-        </div>
       </main>
       <footer class="footer">
         <a class="navigation-logo" href="#"

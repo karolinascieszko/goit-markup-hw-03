@@ -14,8 +14,44 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-font-color);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+
+.cointainer {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*===== COMPONENTS=====*/
 /*FLEX + LOGO PADDING DOPISANY*/
+/*
 .container {
   width: 1200px;
   margin: 0;
@@ -60,7 +96,7 @@ body {
 }
 .main-header {
   margin: 0;
-}
+}*/
 /*END FLEX*/
 
 .navigation-logo {
@@ -70,11 +106,14 @@ body {
   line-height: 1.192;
   text-decoration: none;
   letter-spacing: 0.03em;
+  margin-right: 93px;
+  margin-left: 215px;
+  /*
   padding-top: 24px;
   padding-bottom: 25px;
   padding-left: 215px;
   padding-right: 93px;
-  margin: 0;
+  margin: 0;*/
 }
 .logo-first-word {
   color: var(--main-color);
@@ -143,10 +182,46 @@ body {
 }
 /*===== END COMPONENTS=====*/
 /*===== HEADER =====*/
+.header .container {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.navigation {
+  display: flex;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.header .contact-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.contact.list {
+  display: flex;
+  padding-right: 50px;
+}
+.contact-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact-list-item:last-child {
+  margin-right: 227px;
+}
 
 /*===== END HEADER =====*/
 
 /*===== HERO =====*/
+.hero .container {
+  display: flex;
+  flex-direction: column;
+}
 .main-header {
   font-weight: 900;
   font-size: 44px;
@@ -157,12 +232,17 @@ body {
   color: var(--font-on-dark-theme-color);
 }
 .modal-btn {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   color: var(--font-on-dark-theme-color);
   background-color: var(--main-color);
   cursor: pointer;
+  padding: 10px 41px;
+  display: block;
+
+  margin: 0 auto;
 }
 
 /*===== END HERO =====*/
